@@ -16,5 +16,4 @@ jobs:
       - name: Build and run
         run: |
           npm install
-          npm run build
-          npm start
+
