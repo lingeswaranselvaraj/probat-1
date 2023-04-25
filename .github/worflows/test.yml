@@ -1,0 +1,8 @@
+name: Say Hello World
+"on":
+  issues:
+    types:
+      - opened
+runs:
+  using: "node12"
+  main: "dist/index.js"
